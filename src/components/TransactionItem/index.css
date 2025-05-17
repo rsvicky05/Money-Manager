@@ -1,0 +1,33 @@
+.histroy-body {
+  width: 360px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+  padding: 10px;
+  border: 1px solid #ede9fe;
+  border-top: 0px;
+}
+
+.histroy-body-text {
+  color: #7e858e;
+  font-family: 'roboto';
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+
+
+.delete-btn {
+  background: transparent;
+  border: 0px;
+  outline: 0px;
+  cursor: pointer;
+  padding: 7px;
+  margin-right: 7px;
+}
+
+.delete-icon {
+  height: 25px;
+}

@@ -1,0 +1,43 @@
+.each-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  width: 230px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.icon {
+  height: 60px;
+}
+
+.mon-con {
+  font-family: 'roboto';
+}
+
+.mon-text {
+  font-size: 15px;
+  color: #7e858e;
+  margin-bottom: 3px;
+}
+
+.money {
+  font-size: 18px;
+  color: #7e858e;
+}
+
+.balance {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+}
+
+.income {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+}
+
+.expenses {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+}

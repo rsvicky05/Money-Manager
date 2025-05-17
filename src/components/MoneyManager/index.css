@@ -1,5 +1,6 @@
 .container {
   padding: 20px;
+  width: 100vw;
 }
 
 .name-container {
@@ -106,4 +107,14 @@
   display: flex;
   justify-content: center;
   gap: 40px;
+}
+
+@media (max-width: 767px) {
+  .money-details {
+    flex-direction: column;
+    align-items: center;
+  }
+  .transaction-con{
+    flex-direction: column;
+  }
 }
